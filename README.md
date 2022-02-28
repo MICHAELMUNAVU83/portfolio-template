@@ -10,9 +10,7 @@
 
 - Css
 - Html
-
-## LIVE LINK
-[link to my project] (https://michaelmunavu83.github.io/portfolio-template/)
+[Link to my portfolio](https://michaelmunavu83.github.io/portfolio-template/)
 
 ## Authors
 
