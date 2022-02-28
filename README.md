@@ -12,7 +12,7 @@
 - Html
 
 ## LIVE LINK
-https://michaelmunavu83.github.io/portfolio-template/
+[link to my project] https://michaelmunavu83.github.io/portfolio-template/
 
 ## Authors
 
