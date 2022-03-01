@@ -59,12 +59,12 @@ a {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
   text-align: center;
   color: #172b4d;
   height: 192px;
-  margin: 0;
+  margin-bottom: 10px;
 }
 
 .headline p {
@@ -88,6 +88,7 @@ a {
   font-weight: 500;
   color: #505f79;
   margin-top: 60px;
+  padding-top: 30px;
 }
 
 .socials ul {
@@ -270,7 +271,7 @@ a {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 52px;
   color: #172b4d;
   margin-bottom: 24px;
