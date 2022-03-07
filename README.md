@@ -1,6 +1,7 @@
 
 
 
+
 # PORTFOLIO 
 
 > My portfolio displaying my skills and knowledge.
@@ -37,6 +38,5 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
 
 

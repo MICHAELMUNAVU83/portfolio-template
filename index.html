@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,21 +17,45 @@
 
         <header>
             <nav class="navigation">
+                <div id="mobile-menu-navigation" class="overlay">
+                    <a href="javascript:void(0)" class="close-btn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <ul class="overlay-content">
+                        <li class="portfolio page-link">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="about page-link">
+                            <a href="#about-me">About</a>
+                        </li>
+                        <li class="contact page-link">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
                 <ul class="desktop-nav">
-                    <li class="portfolio">Portfolio</li>
-                    <li class="about">About</li>
-                    <li class="contact">Contact</li>
+                    <li class="portfolio">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="about">
+                        <a href="#about-me">About</a>
+                    </li>
+                    <li class="contact">
+                        <a href="#contact">Contact</a>
+                    </li>
                 </ul>
 
                 <ul class="mobile-nav">
                     <li class="welcome">Welcome</li>
                     <li class="menu-icon">
-                        <nav><i class="fa-solid fa-bars"></i></nav>
+                        <nav>
+                            <i class="fa-solid fa-bars"></i>
+                        </nav>
                     </li>
                 </ul>
             </nav>
 
-            <section class="headline">
+            <section class="headline" id="portfolio">
                 <h1 class="intro"><span>Hey there. I'm MICHAEL.</span><br>I'm a Software Developer</h1>
                 <p> I can help you build a product, feature or website. Look through some of my work and experience! If
                     you like
@@ -146,7 +171,7 @@
             </div>
         </section>
 
-        <section class="about-me">
+        <section class="about-me" id="about-me">
 
             <div class="about-me-text">
                 <h2 class="about-me-title">About me</h2>
@@ -208,7 +233,7 @@
             </div>
 
         </section>
-        <section class="form">
+        <section class="form" id="contact">
             <h2>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
             <form action="https://formspree.io/f/mnqwdbwy" method="post">
                 <div class="form-inputs">
@@ -238,7 +263,8 @@
             </div>
         </footer>
     </div>
-   
+    <script src="script.js"></script>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BK8YHJ46XN"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
