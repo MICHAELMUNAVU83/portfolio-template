@@ -146,4 +146,19 @@ form.addEventListener('submit', (event) => {
     errorMsg.style.visibility = 'hidden';
   }
 });
+const contactForm = document.querySelector('#contact-form');
+const fullName = document.querySelector('#name');
+const emailAddress = document.querySelector('#email');
+const message = document.querySelector('#message');
+
+// Add to local storage function
+function dataStorage() {
+  const user = {
+    userFullName: fullName.value,
+    userEmail: emailAddress.value,
+    userMessage: message.value,
+  };
+
+  localStorage.setItem('userData', JSON.stringify(user));
+}
 
