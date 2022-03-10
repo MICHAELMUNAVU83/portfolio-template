@@ -15,12 +15,10 @@ closeBtn.addEventListener('click', () => {
   mobileNav.style.width = '0%';
 });
 
-linkIds.forEach((linkId) =>
-  linkId.addEventListener('click', () => {
-    mobileNavMenu.style.display = 'none';
-    mobileNav.style.width = '0%';
-  })
-);
+linkIds.forEach((linkId) => linkId.addEventListener('click', () => {
+  mobileNavMenu.style.display = 'none';
+  mobileNav.style.width = '0%';
+}));
 
 // End of mobile menu overlay
 
@@ -94,30 +92,30 @@ const createProject = (projectArray) => {
          <span class="close" onclick="closeNav()"><img src="pics/Disabled.svg" alt=""></span>
          <div class="pop-up-overlay-image">
            <img class="pop-up-overlay-image" src="${
-             projectArray[project].image
-           }" alt="">
+  projectArray[project].image
+}" alt="">
          </div>
          <div class="pop-up-overlay-content">
            <div class="buttons-container">
              <ul class="button-items">
                <li><a href="${
-                 projectArray[project].live
-               }">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></i></a></li>
+  projectArray[project].live
+}">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></i></a></li>
                <li><a href="${
-                 projectArray[project].source
-               }">See Source <i class="fa-brands fa-github"></i></a></li>
+  projectArray[project].source
+}">See Source <i class="fa-brands fa-github"></i></a></li>
              </ul>
            </div>
            <h2>${projectArray[project].name}</h2>
            <ul class="lang-tags">
              ${projectArray[project].technologies
-               .map((tech) => `<li class="tag">${tech}</li>`)
-               .join('')}
+    .map((tech) => `<li class="tag">${tech}</li>`)
+    .join('')}
            </ul>
            <p>${projectArray[project].description}</p>
          </div>
     </div>
-      `
+      `,
     );
   }
 };
