@@ -1,42 +1,31 @@
 
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
+# Project Name
 
-
-# PORTFOLIO 
-
-> My portfolio displaying my skills and knowledge.
+PORTOFOLIO WEBSITE
 
 
 ## Built With
+-HTML
+-Javascript
+-CSS
 
-- Css
-- Html
+## Live Demo (if available)
 
-## Live Link
-
-[Link to my portfolio](https://michaelmunavu83.github.io/portfolio-template/)
+[Live Demo Link](https://michaelmunavu83.github.io/portfolio-template/)
 
 ## Authors
 
-👤 **Michael munavu**
+👤 **Author1**
 
-
--Twitter:(https://twitter.com/MunavuMichael)
--LinkedIn:(https://www.linkedin.com/in/michael-munavu-78703a218/)
 - GitHub: [@githubhandle](https://github.com/MICHAELMUNAVU83)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
+- Twitter: [@twitterhandle](https://twitter.com/MunavuMichael)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/michael-munavu-78703a218/)
+- 
 
 
-## Show your support
-
-Give a ⭐️ if you like this project!
 
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
-
